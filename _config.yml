@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /favicon.jpg
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -38,10 +38,12 @@ seo: false
 menu:
   home: /
   #categories: /categories
-  #about: /about
   archives: /archives
   tags: /tags
-  #sitemap: /sitemap.xml
+  schedule: /schedule
+  history: /history
+  about: /about
+
   #commonweal: /404.html
 
 
@@ -65,14 +67,15 @@ menu_icons:
 
 
 
+
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -132,8 +135,9 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/xujinyang
+  CSDN: http://blog.csdn.net/mobilexu
 
 
 # Social Links Icons
@@ -153,7 +157,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /favicon.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -199,6 +203,22 @@ sidebar:
 # Post Settings
 # ---------------------------------------------------------------
 
+# Custom Logo.
+# !!Only available for Default Scheme currently.
+# Options:
+#   enabled: [true/false] - Replace with specific image
+#   image: url-of-image   - Images's url
+custom_logo:
+  enabled: false
+  image:
+
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night bright
+
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
 
@@ -223,7 +243,7 @@ post_meta:
 #wechat_subscriber:
   #enabled: true
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
+  description: Done is better than perfect
 
 
 
@@ -263,10 +283,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 9e90cf6fcfd1c901ddfc12cd9529d691
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: jamesxu
 
 # Disqus
 #disqus_shortname:
@@ -314,7 +334,7 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
-  #admin_nickname: Author
+  admin_nickname: 许锦洋
 
 
 # Facebook SDK Support.
