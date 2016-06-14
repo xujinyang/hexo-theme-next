@@ -190,11 +190,14 @@ sidebar:
 
 
 # Blogrolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+links_title: Links
+# links_layout: block
+# links_layout: inline
+links:
+  段子张: http://stormzhang.com
+  drakeet: https://drakeet.me
+  任玉刚: http://blog.csdn.net/singwhatiwanna
+
 
 
 # ---------------------------------------------------------------
@@ -308,7 +311,7 @@ duoshuo_shortname: jamesxu
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -331,7 +334,7 @@ duoshuo_shortname: jamesxu
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0
+  user_id: 5064259
   admin_nickname: 许锦洋
 
 
@@ -357,9 +360,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: tpRucnKN3U2P8GTfEalPGvAI-gzGzoHsz
+  app_key: Ijb69YbG0OxD8a3ynDFupQ2M
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
